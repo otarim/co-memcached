@@ -1,6 +1,6 @@
 {
   "name": "co-memcached",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple wrapper to the memcached library for co-like interface",
   "main": "index.js",
   "scripts": {
