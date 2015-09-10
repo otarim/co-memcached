@@ -1,0 +1,27 @@
+{
+  "name": "co-memcached",
+  "version": "1.0.0",
+  "description": "Simple wrapper to the memcached library for co-like interface",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/otarim/co-memcached.git"
+  },
+  "keywords": [
+    "co-memcached",
+    "co",
+    "memcached"
+  ],
+  "author": "otarim.com@gmail.com",
+  "license": "The MIT License (MIT)",
+  "bugs": {
+    "url": "https://github.com/otarim/co-memcached/issues"
+  },
+  "homepage": "https://github.com/otarim/co-memcached",
+  "dependencies": {
+    "memcached": "^2.2.0"
+  }
+}
