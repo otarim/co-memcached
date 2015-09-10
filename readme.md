@@ -9,10 +9,8 @@ To install run:
 Use in co:
 
     var co = require('co'),
-        Memcached = require('memcached'),
+        Memcached = require('co-memcached'),
         memcached = new Memcached('127.0.0.1:11211')
-
-    require('co-memcached')
 
     co(function*(){
         yield memcached.set('foo','bar',1000)

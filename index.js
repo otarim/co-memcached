@@ -1,4 +1,4 @@
-var Memcached = require('memcached')
+var Memcached = module.exports = require('memcached')
 
 var promiseAble = function(fn) {
 	return new Promise(function(resolve, reject) {
