@@ -7,7 +7,7 @@ var promiseAble = function(fn) {
 				reject(err)
 			} else {
 				if (arguments.length > 2) {
-					data = slice.call(arguments, 1)
+					data = [].slice.call(arguments, 1)
 				}
 				resolve(data)
 			}
